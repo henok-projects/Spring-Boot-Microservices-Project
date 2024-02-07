@@ -30,7 +30,6 @@ class ProductServiceApplicationTests {
     @Container
     static MongoDBContainer mongoDBContainer = new MongoDBContainer(DockerImageName.parse("mongo:4.0.10"));
 
-
     @Autowired
     MockMvc mockMvc;
 
